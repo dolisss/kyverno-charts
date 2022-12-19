@@ -495,6 +495,27 @@ entries:
   kyverno-operator:
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2022-12-19T15:55:30.002348432Z"
+    description: Kyverno Operator
+    digest: 33911a0ad0d46118d9ba3a87f71eaf6349806be2ac4d537b497c68f4c4ee9059
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - kyverno operator
+    - kyverno monitor
+    - admissions controller
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://nirmata.com/
+    name: kyverno-operator
+    urls:
+    - https://github.com/dolisss/kyverno-charts/releases/download/kyverno-operator-v0.1.7/kyverno-operator-v0.1.7.tgz
+    version: v0.1.7
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2022-11-04T04:42:22.877231792Z"
     description: Kyverno Operator
     digest: 2d5db3381721073205ba1739640b0f3fa4ca9f86b9fb83a8032b2c2087c85c91
@@ -616,7 +637,46 @@ entries:
     urls:
     - https://github.com/nirmata/kyverno-charts/releases/download/nirmata-venafi-adapter-v0.1.0/nirmata-venafi-adapter-v0.1.0.tgz
     version: v0.1.0
+  pod-security-policies:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-12-19T15:55:30.491618035Z"
+    description: Pos Security Policy Set
+    digest: f34e96319f3099aa8cadf28ef680e21d27209be4765b9d7084f04e19e71d5651
+    keywords:
+    - kubernetes
+    - nirmata
+    - kyverno
+    - aws
+    - adapter
+    - policy
+    maintainers:
+    - name: Nirmata
+      url: https://nirmata.com/
+    name: pod-security-policies
+    type: application
+    urls:
+    - https://github.com/dolisss/kyverno-charts/releases/download/pod-security-policies-0.1.0/pod-security-policies-0.1.0.tgz
+    version: 0.1.0
   venafi-adapter:
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2022-12-19T15:55:30.655571158Z"
+    description: Nirmata Venafi Adapter
+    digest: 170b111f2f603eeb4165f5c58be9c836c39e947c13620d0e3c67f938445922db
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - venafi adapter
+    maintainers:
+    - name: Nirmata
+      url: https://nirmata.com/
+    name: venafi-adapter
+    urls:
+    - https://github.com/dolisss/kyverno-charts/releases/download/venafi-adapter-v0.1.11/venafi-adapter-v0.1.11.tgz
+    version: v0.1.11
   - apiVersion: v1
     appVersion: v0.1.0
     created: "2022-11-07T16:38:26.572821424Z"
@@ -766,4 +826,4 @@ entries:
     urls:
     - https://github.com/nirmata/kyverno-charts/releases/download/venafi-adapter-v0.1.2/venafi-adapter-v0.1.2.tgz
     version: v0.1.2
-generated: "2022-12-19T15:36:18.81451439Z"
+generated: "2022-12-19T15:55:30.655842762Z"
